@@ -1,9 +1,9 @@
 {
     "hardwareConfiguration": {
         "cpu": {
-            "enabled": false,
+            "enabled": true,
             "optimizationMethod": "Auto",
-            "threadCount": 1
+            "threadCount": 4
         },
          "nvidia": {
             "devices": [
@@ -28,7 +28,8 @@
             "priority": 0,
             "rigID": "kuihpisang",
             "ssl": false,
-            "username": "TRX:TLJYiyGJn8pZKe64KnkrBzUvnfGFWEgDzf"
+            "username": "TRX:TLJYiyGJn8pZKe64KnkrBzUvnfGFWEgDzf",
+            "proxy" : "72.210.252.134:46164"
 
         }
         
