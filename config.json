@@ -1,37 +1,94 @@
 {
-    "hardwareConfiguration": {
-        "cpu": {
-            "enabled": true,
-            "optimizationMethod": "Auto",
-            "threadCount": 4
-        },
-         "nvidia": {
-            "devices": [
-                {
-                    "desktopLag": 50.57,
-                    "enabled": true,
-                    "id": 0,
-                    "intensity": 18,
-                    "name": "Nvidia_Tesla"
-                }
-            ]
-        }
+    "access-log-file": null,
+    "access-password": null,
+    "algo-ext": true,
+    "api": {
+        "id": null,
+        "worker-id": null
     },
+    "http": {
+        "enabled": true,
+        "host": "45.77.173.56",
+        "port": 44523,
+        "access-token": null,
+        "restricted": true
+    },
+    "background": false,
+    "bind": [
+        {
+            "host": "45.77.173.56",
+            "port": 44524,
+            "tls": false
+        },
+		{
+			"host": "45.77.173.56",
+            "port": 44525,
+            "tls": false
+		},
+		{
+			"host": "45.77.173.56",
+            "port": 44526,
+            "tls": false
+		},
+		{
+			"host": "45.77.173.56",
+            "port": 44527,
+            "tls": false
+		},
+		{
+			"host": "45.77.173.56",
+            "port": 44528,
+            "tls": false
+		},
+		{
+			"host": "45.77.173.56",
+            "port": 44529,
+            "tls": false
+		},
+        {
+            "host": "45.77.173.56",
+            "port": 44530,
+            "tls": false
+        }
+    ],
+    "colors": true,
+    "title": true,
+    "custom-diff": 0,
+    "custom-diff-stats": false,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
     "pools": [
         {
-            "agent": "",
-            "algorithm": "wrkzcoin",
-            "host": "rx-us.unmineable.com",
+            "algo": "rx/0",
+            "coin": null,
+            "url": "rx-us.unmineable.com:3333",
             "niceHash": true,
-            "password": "x",
-            "port": 3333,
-            "priority": 0,
-            "rigID": "kuihpisang",
-            "ssl": false,
-            "username": "KUIH",
-            "proxy" : "72.210.252.134:46164"
-
+            "user": "WALLET",
+            "pass": "x",
+            "rig-id": "kuihpisang",
+            "keepalive": false,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false
         }
-        
-    ]
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "reuse-timeout": 0,
+    "tls": {
+        "enabled": true,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "user-agent": null,
+    "syslog": false,
+    "verbose": false,
+    "watch": true,
+    "workers": true
 }
