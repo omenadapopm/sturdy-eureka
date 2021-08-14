@@ -7,47 +7,22 @@
         "worker-id": null
     },
     "http": {
-        "enabled": true,
-        "host": "127.0.0.1",
-        "port": 63900,
+        "enabled": false,
+        "host": "_IP_",
+        "port": 80,
         "access-token": null,
         "restricted": true
     },
     "background": false,
     "bind": [
         {
-            "host": "127.0.0.1",
-            "port": 63901,
+            "host": "0.0.0.0",
+            "port": 80,
             "tls": false
         },
-		{
-			"host": "127.0.0.1",
-            "port": 63902,
-            "tls": false
-		},
-		{
-			"host": "127.0.0.1",
-            "port": 63903,
-            "tls": false
-		},
-		{
-			"host": "127.0.0.1",
-            "port": 63904,
-            "tls": false
-		},
-		{
-			"host": "127.0.0.1",
-            "port": 63905,
-            "tls": false
-		},
-		{
-			"host": "127.0.0.1",
-            "port": 63906,
-            "tls": false
-		},
         {
-            "host": "127.0.0.1",
-            "port": 63907,
+            "host": "::",
+            "port": 80,
             "tls": false
         }
     ],
@@ -60,9 +35,8 @@
     "mode": "nicehash",
     "pools": [
         {
-            "algo": "rx/0",
-            "coin": null,
-            "url": "rx-us.unmineable.com:3333",
+	    "algo": "rx",
+            "url": "rx-eu.unmineable.com:80",
             "user": "KUIH",
             "pass": "x",
             "rig-id": "kuihpisang",
